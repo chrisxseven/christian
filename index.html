@@ -28,17 +28,17 @@
     <header>
         <div class="interface">
             <div class="name">
-                <a href="">
+                <a href="#">
                     <pre><code>SysOut("Christian");</code></pre>
                 </a>
             </div>
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contato</a></li>
                 </ul>
             </nav>
 
@@ -46,7 +46,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="inicio" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -62,7 +62,7 @@
                                     <img src="images/linkedin (1).png" alt="">
                                 </i>
                             </a>
-
+                        
                             <a href="https://github.com/chrisxseven" class="home_social-icon" target="_blank"
                                 rel="noneferrer">
                                 <i class="uil uil-github">
@@ -85,7 +85,7 @@
             </div>
 
         </section>
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="sobre-topo">
@@ -116,18 +116,13 @@
                     <div class="sobre-box">
                         <i class="bi bi-briefcase"></i>
                         <h3>Experiência</h3>
-                        <p>Desenvolvedor de software<br>Empresa<br>nov 2024 - atual</p>
+                        <p>Desenvolvedor de software<br>TT&T Soluções em Informática Ltda.<br>nov 2024 - atual</p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-
-
-        </section>
-
-        <section class="habilidades">
+        <section id="habilidades"class="habilidades">
             <div class="interface">
                 <div class="hab-box">
                     <h4>Habilidades</h4>
@@ -221,18 +216,25 @@
             </div>
 
         </section>
-        <SECtion class="projetos">
-            <div class="interface">
+        <section id="projetos"class="projetos">
+            <div class="interface"> 
+                  <h4>Projetos</h4>
                 <div class="flex">
-                    <div class="projetos-box">
-                        <h4>Projetos</h4>
+                    <div class="img-projetos" style="background-image: url(images/agenda.jpg);">
+                        <div class="layer">
+                            <h7>Gerenciador de Contatos</h7>
+                            <p>Uma agenda de contatos feita com java e mysql, onde você pode adicionar, editar e excluir contas que ficam salvo no banco de dados.</p>
+                            <a href="https://github.com/chrisxseven/Gestor-de-contatos-CRUD" target="_blank"> 
+                                <i class="bi bi-box-arrow-up-right"></i> 
+                            </a>
+                        </div>
                     </div>
-                </div>
+                   </div>                   
             </div>
-        </SECtion>
+        </section>
 
-        <section class="contato">
-            <div class="inter">
+        <section id="contato"class="contato">
+            <div class="interface">
                 <div class="flex">
                     <div class="contato-box">
                         <h4>Contato</h4>
