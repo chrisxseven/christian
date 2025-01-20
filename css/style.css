@@ -468,7 +468,7 @@ section.contato {
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .topo-do-site .flex {
@@ -490,7 +490,7 @@ section.contato {
     }
 
     section.topo-do-site {
-        padding: 20px 8%;
+        padding: 0px 0%;
     }
 
     .topo-do-site h1 {
@@ -499,6 +499,10 @@ section.contato {
 
     section .img-topo-site img {
         width: 100%;
+    }
+
+    .home_social-icon img {
+        width: 60px;
     }
 
     /*sobre-topo*/
@@ -516,11 +520,6 @@ section.contato {
         padding: 40px;
         margin: 30px;
         margin-top: -50px;
-    }
-
-    .sobre-rdp{
-        display: flex;
-        font-size: 20px;
     }
 
     /* habilidades */
