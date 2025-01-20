@@ -541,7 +541,7 @@ section.contato {
 
 
     .habilidades .hab-box {
-        padding: 0px 0%;
+        padding: 20px 8%;
         margin-left: 20px;
         margin-bottom: 50px;
         font-size: 25px;
@@ -549,7 +549,7 @@ section.contato {
         }
 
     .habilidades .hab-box2 {
-        padding: 0px 0%;
+        padding: 20px 8%;
         margin-left: 20px;
         margin-bottom: 50px;
         font-size: 25px;
@@ -578,6 +578,7 @@ section.contato {
 
     section.projetos {
         margin-left: 20px;
+        padding: 20px 8%;
     }
 
     .img-projetos {
@@ -589,6 +590,7 @@ section.contato {
     section.contato {
         margin-left: 20px;
         font-size: 30px;
+        padding: 20px 8%;
     }
 
     section.contato h4 {
@@ -706,14 +708,14 @@ section.contato {
 
 
     .habilidades .hab-box {
-        padding: 0px 0%;
+        padding: 10px 4%;
         margin-left: 10px;
         margin-bottom: 40px;
         font-size: 15px;
     }
 
     .habilidades .hab-box2 {
-        padding: 0px 0%;
+        padding: 10px 4%;
         margin-left: 10px;
         margin-bottom: 40px;
         font-size: 15px;
@@ -743,6 +745,7 @@ section.contato {
 
     section.projetos {
         margin-left: 10px;
+        padding: 10px 4%;
     }
 
     .img-projetos {
@@ -752,6 +755,7 @@ section.contato {
 
     /*Contato*/
     section.contato {
+        padding: 10px 4%;
         margin-left: 10px;
         font-size: 20px;
     }
