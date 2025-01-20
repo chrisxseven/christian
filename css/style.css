@@ -518,23 +518,30 @@ section.contato {
         margin-top: -50px;
     }
 
+    .sobre-rdp{
+        display: flex;
+        font-size: 20px;
+    }
+
     /* habilidades */
 
+
+    .habilidades .hab-box h4 {
+        font-size: 35px;
+    }
 
     .habilidades .hab-box {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 50px;
-        font-size: 30px;
-
+        font-size: 20px;
     }
 
     .habilidades .hab-box2 {
         padding: 0px 0%;
         margin-left: 20px;
-        margin-bottom: 200px;
         margin-bottom: 50px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .habilidades .hab-box .logos {
@@ -554,9 +561,11 @@ section.contato {
         margin-bottom: 5%;
     }
 
+    section.projetos h4{
+        font-size: 35px;
+    }
     section.projetos {
         margin-left: 20px;
-        font-size: 30px;
     }
 
     .img-projetos {
