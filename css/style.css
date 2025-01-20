@@ -524,7 +524,8 @@ section.contato {
     .habilidades .hab-box {
         padding: 0px 0%;
         margin-left: 20px;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
+        font-size: 30px;
 
     }
 
@@ -532,7 +533,8 @@ section.contato {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 200px;
-
+        margin-bottom: 50px;
+        font-size: 30px;
     }
 
     .habilidades .hab-box .logos {
@@ -554,6 +556,7 @@ section.contato {
 
     section.projetos {
         margin-left: 20px;
+        font-size: 30px;
     }
 
     .img-projetos {
@@ -564,6 +567,7 @@ section.contato {
     /*Contato*/
     section.contato {
         margin-left: 20px;
+        font-size: 30px;
     }
 
     .contato-icon p {
