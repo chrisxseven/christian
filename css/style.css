@@ -459,7 +459,7 @@ section.contato {
 }
 
 @media screen and (max-width: 1024px) {
-   
+
     header {
         position: absolute;
     }
@@ -522,9 +522,11 @@ section.contato {
     /* habilidades */
 
 
-    section.habilidades{
+    section.habilidades {
+        margin-left: 20px;
         padding: 20px 8%;
     }
+
     .habilidades .hab-box h4 {
         font-size: 40px;
     }
@@ -539,14 +541,16 @@ section.contato {
 
 
     .habilidades .hab-box {
-        padding: 20px 8%;
+        padding: 0px 0%;
+        margin-left: 20px;
         margin-bottom: 50px;
         font-size: 25px;
         margin-bottom: 50px;
-        }
+    }
 
     .habilidades .hab-box2 {
-        padding: 20px 8%;
+        padding: 0px 0%;
+        margin-left: 20px;
         margin-bottom: 50px;
         font-size: 25px;
     }
@@ -593,6 +597,7 @@ section.contato {
         font-size: 40px;
 
     }
+
     section.contato h3 {
         font-size: 20px;
 
@@ -620,8 +625,9 @@ section.contato {
 
     .end {
         padding: 15px 3%;
-    } 
+    }
 }
+
 @media screen and (max-width: 768px) {
 
     header {
@@ -676,11 +682,12 @@ section.contato {
         gap: 0px;
     }
 
-    .sobre-rdp .flex{
+    .sobre-rdp .flex {
         flex-direction: column;
 
     }
-        .sobre-rdp .sobre-box {
+
+    .sobre-rdp .sobre-box {
         display: flex;
         padding: 20px;
         margin: 10px;
@@ -760,6 +767,7 @@ section.contato {
         font-size: 30px;
 
     }
+
     section.contato h3 {
         font-size: 20px;
 
@@ -787,6 +795,5 @@ section.contato {
 
     .end {
         padding: 5px 1%;
-    } 
+    }
 }
-
