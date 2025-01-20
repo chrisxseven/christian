@@ -27,6 +27,7 @@ i2 {
     font-size: 40px;
     color: #4E9975;
 }
+
 i3 {
     font-size: 40px;
     color: #4E9975;
@@ -63,15 +64,15 @@ p {
 header {
     position: fixed;
     padding: 30px 4%;
-    top: 0; 
-    left: 0; 
-    width: 100%; 
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgb(222, 222, 222);
-    z-index: 1000; 
+    z-index: 1000;
 }
 
 
-.name :hover{
+.name :hover {
     color: #4E9975;
 }
 
@@ -82,7 +83,7 @@ header>.interface {
 }
 
 
-header a{
+header a {
     font-weight: 600;
     color: rgb(63, 63, 63);
     text-decoration: none;
@@ -91,12 +92,12 @@ header a{
 }
 
 header a:hover {
-    color:#4E9975;
+    color: #4E9975;
     transform: scale(1.10);
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 header nav ul {
@@ -121,7 +122,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #4E9975; /* Cor de destaque no hover */
+    color: #4E9975;
+    /* Cor de destaque no hover */
 }
 
 /*.btn-contato button{
@@ -141,6 +143,10 @@ header .btn-contato button:hover {
 
 
 /* Topo*/
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
 
 section.topo-do-site .flex {
     align-items: center;
@@ -167,7 +173,7 @@ section .img-topo-site img {
     color: var(--first-color);
 }
 
- .home_social {
+.home_social {
     display: flex;
     gap: 1rem;
     line-height: 80px;
@@ -181,7 +187,7 @@ section .img-topo-site img {
     color: var(--first-color);
 }
 
- .home_social-icon:hover {
+.home_social-icon:hover {
     color: var(--first-color-alt);
     cursor: pointer;
     transform: scale(1.10);
@@ -190,7 +196,9 @@ section .img-topo-site img {
 
 /*sobre-topo*/
 
-
+section.sobre {
+    padding: 40px 4%;
+}
 
 section.sobre .flex {
     align-items: center;
@@ -239,9 +247,13 @@ section .img-sobre img {
 }
 
 /*Habilidades*/
-section .habilidades {
+section.habilidades {
     align-items: center;
     justify-content: center;
+}
+
+section.topo-do-site .flex {
+    gap: 70px;
 }
 
 .habilidades .hab-box {
@@ -318,7 +330,7 @@ section .habilidades {
 }
 
 /*Projetos*/
-section.projetos{
+section.projetos {
     margin-left: 130px;
 }
 
@@ -327,7 +339,7 @@ section.projetos .flex{
    justify-content: space-around
 }*/
 
-.img-projetos{
+.img-projetos {
     margin-top: 25px;
     width: 335px;
     height: 425px;
@@ -340,13 +352,13 @@ section.projetos .flex{
     transition: .5s;
 }
 
-.img-projetos:hover{
+.img-projetos:hover {
     background-position: 100% 0%;
     transform: scale(1.10);
 
 }
 
-.layer{
+.layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -364,82 +376,220 @@ section.projetos .flex{
     transition: .5;
 }
 
-.layer:hover{
+.layer:hover {
     opacity: 1;
 }
-.layer h7{
+
+.layer h7 {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.layer p{
+.layer p {
     color: #bbb6b6;
     font-size: var(--p-small-font);
     line-height: 1.5;
-    text-align: center; 
-    margin: 0; 
-    padding: 0; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
     max-width: 80%
 }
 
-    .layer i {
-      color: #4E9975;
+.layer i {
+    color: #4E9975;
     margin-top: 20px;
     font-size: 20px;
     background: #fff;
     width: 60px;
     height: 60px;
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    text-decoration: none; 
-    vertical-align: top; 
+    text-decoration: none;
+    vertical-align: top;
+}
+
+section.contato {
+    margin-left: 130px;
+}
+
+.contato-box {
+    border-radius: 30px;
+    margin-right: 10px;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 150px;
+
+}
+
+.contato-icon h3 {
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato-icon p {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    font-weight: 350px;
+
+}
+.end{
+   color: #000000;
+   font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Rodape */
+
+footer {
+    padding: 20px 4%;
+    font-weight: 600;
+}
+
+footer h9 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000d6;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .flex {
+        flex-direction: column;
     }
-    
-    section.contato{
-        margin-left: 130px;
+    header {
+        position:absolute;
     }
 
-    .contato-box{
-        border-radius: 30px;
-        margin-right: 10px;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.5rem 1rem;
-        margin-bottom: 150px;
-
+    h4 {
+        font-size: 30px;
     }
-    .contato-icon h3 {
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .sobre .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* Cabeçalho */
+    .menu-desktop {
+        display: none;
+    }
+
+    /*topo do site*/
+    section.topo-do-site .flex {
+        gap: 30px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    section .img-topo-site img {
+        width: 100%;
+    }
+
+    /*sobre-topo*/
+
+    section.sobre {
+        padding: 20px 8%;
+    }
+
+    section.sobre .flex {
+        gap: 0px;
+    }
+
+    .sobre-rdp .sobre-box {
         display: flex;
-        flex-direction: flex;
-        align-items: center;
-        justify-content: space-between;
+        padding: 40px;
+        margin: 30px;
+        margin-top: -50px;
+    }
+
+    /* habilidades */
+
+
+    .habilidades .hab-box {
+        padding: 0px 0%;
+        margin-left: 20px;
+        margin-bottom: 200px;
+
+    }
+
+    .habilidades .hab-box2 {
+        padding: 0px 0%;
+        margin-left: 20px;
+        margin-bottom: 200px;
+
+    }
+
+    .habilidades .hab-box .logos {
+        padding: 20px 0%;
+        gap: 30px;
+    }
+
+    .habilidades .hab-box .logos .skills {
+        gap: 0.5rem;
+        padding: 0.7rem 0.5rem;
+        margin-bottom: 5%;
+    }
+
+    .habilidades .hab-box2 .logos .skills {
+        gap: 0.5rem;
+        padding: 0.7rem 0.5rem;
+        margin-bottom: 5%;
+    }
+
+    section.projetos {
+        margin-left: 20px;
+    }
+
+    .img-projetos {
+        padding: 100px;
+        width: 95%;
+    }
+
+    /*Contato*/
+    section.contato {
+        margin-left: 20px;
     }
 
     .contato-icon p {
-        margin-left: 40px;
         display: flex;
         flex-direction: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 35px;
-        font-weight: 350px;
-
+    }
+    .contato-box {
+        margin-bottom: 0px;
+    
     }
 
-    /* Rodape */
-
-    footer{
-       padding: 20px 4%;
-       font-weight: 600;
-    }
-
-    footer .backft{}
-
-    footer h9{
+    footer h9 {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -447,9 +597,7 @@ section.projetos .flex{
         font-size: 20px;
     }
 
-    
-   
-
-    
-    
-
+    .end{
+        padding: 15px 3%;
+    }
+}
