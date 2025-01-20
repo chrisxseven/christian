@@ -526,21 +526,21 @@ section.contato {
 
 
     .habilidades .hab-box h4 {
-        font-size: 35px;
+        font-size: 60px;
     }
 
     .habilidades .hab-box {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 50px;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .habilidades .hab-box2 {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 50px;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .habilidades .hab-box .logos {
