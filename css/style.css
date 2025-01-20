@@ -532,18 +532,25 @@ section.contato {
     .habilidades .hab-box h3 {
         font-size: 30px;
     }
+   
+    .habilidades .hab-box2 h3 {
+        font-size: 30px;
+    }
 
 
     .habilidades .hab-box {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 50px;
+        font-size: 25px;
+        }
     }
 
     .habilidades .hab-box2 {
         padding: 0px 0%;
         margin-left: 20px;
         margin-bottom: 50px;
+        font-size: 25px;
     }
 
     .habilidades .hab-box .logos {
