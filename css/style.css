@@ -443,9 +443,11 @@ section.contato {
     font-weight: 350px;
 
 }
-.end{
-   color: #000000;
-   font-weight: 600;
+
+/* Rodape */
+.end {
+    color: #000000;
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
     padding: 20px 15%;
@@ -456,27 +458,13 @@ section.contato {
     gap: 2rem;
 }
 
-/* Rodape */
-
-footer {
-    padding: 20px 4%;
-    font-weight: 600;
-}
-
-footer h9 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000000d6;
-    font-size: 20px;
-}
-
 @media screen and (max-width: 1024px) {
     .flex {
-        flex-direction: column;
+        flex-direction: column1;
     }
+
     header {
-        position:absolute;
+        position: absolute;
     }
 
     h4 {
@@ -584,9 +572,10 @@ footer h9 {
         align-items: center;
         justify-content: space-between;
     }
+
     .contato-box {
         margin-bottom: 0px;
-    
+
     }
 
     footer h9 {
@@ -597,7 +586,7 @@ footer h9 {
         font-size: 20px;
     }
 
-    .end{
+    .end {
         padding: 15px 3%;
     }
 }
