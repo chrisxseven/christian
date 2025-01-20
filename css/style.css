@@ -523,7 +523,7 @@ section.contato {
 
 
     section.habilidades{
-        padding: 0px 0%;
+        padding: 20px 8%;
         margin-left: 20px;
     }
     .habilidades .hab-box h4 {
@@ -540,7 +540,7 @@ section.contato {
 
 
     .habilidades .hab-box {
-        padding: 0px 0%;
+        padding: 20px 8%;
         margin-left: 30px;
         margin-bottom: 50px;
         font-size: 25px;
@@ -548,7 +548,7 @@ section.contato {
         }
 
     .habilidades .hab-box2 {
-        padding: 0px 0%;
+        padding: 20px 8%;
         margin-left: 30px;
         margin-bottom: 50px;
         font-size: 25px;
