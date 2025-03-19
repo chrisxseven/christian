@@ -257,23 +257,15 @@ section.topo-do-site .flex {
 }
 
 .habilidades .hab-box {
-    padding: 40px;
-    margin: 30px;
-    height: 200px;
-    width: 300px;
+    
     align-items: center;
     justify-content: center;
 }
 
 .habilidades .hab-box2 {
-    padding: 40px;
-    margin: 30px;
-    height: 150px;
-    width: 300px;
     align-items: center;
     justify-content: center;
-    margin-top: -50px;
-    margin-bottom: 150px;
+    
 
 }
 
@@ -364,7 +356,7 @@ section.projetos .flex{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #234434dc;
+    background-color: #0d1b14ea;
     border-radius: 25px;
     overflow: hidden;
     display: flex;
@@ -629,6 +621,10 @@ section.contato {
 
 @media screen and (max-width: 768px) {
 
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    
     header {
         position: absolute;
     }
@@ -645,6 +641,10 @@ section.contato {
         flex-direction: column-reverse;
     }
 
+    .logos .flex {
+        flex-wrap: wrap;
+    }
+   
     /* Cabeçalho */
     .menu-desktop {
         display: none;
@@ -660,7 +660,7 @@ section.contato {
     }
 
     .topo-do-site h1 {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     section .img-topo-site img {
@@ -694,10 +694,14 @@ section.contato {
     }
 
     /* habilidades */
-
+    
+    section.habilidades {
+        padding: 10px 4%;
+    }
 
     .habilidades .hab-box h4 {
-        font-size: 30px;
+         padding: 0px 1%; 
+         font-size: 70px;
     }
 
     .habilidades .hab-box h3 {
@@ -708,20 +712,19 @@ section.contato {
         font-size: 20px;
     }
 
-
     .habilidades .hab-box {
-        padding: 10px 4%;
-        margin-left: 10px;
-        margin-bottom: 40px;
+        padding: 10px 2%;
+        margin-left: -15px;
+        margin-bottom: -20px;
         font-size: 15px;
+        
     }
 
     .habilidades .hab-box2 {
-        padding: 10px 4%;
-        margin-left: 10px;
-        margin-bottom: 40px;
+        padding: 10px 2%;
+        margin-left: -15px;
+        margin-bottom: -20px;
         font-size: 15px;
-        flex-direction: column;
     }
 
     .habilidades .hab-box .logos {
@@ -753,6 +756,17 @@ section.contato {
     .img-projetos {
         padding: 90px;
         width: 85%;
+    }
+
+    /*Projetos*/
+
+    section.projetos {
+        padding: 10px 4%;
+    }
+    .img-projetos {
+        width: 300px; 
+        height: 300px;
+        align-items: center;
     }
 
     /*Contato*/
@@ -795,4 +809,5 @@ section.contato {
     .end {
         padding: 5px 1%;
     }
+  }
 }
