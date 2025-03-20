@@ -161,6 +161,12 @@ section.topo-do-site .flex {
     line-height: 40px;
 }
 
+.topo-do-site h1 span{
+    color: #4E9975;
+
+}
+
+
 .topo-do-site p {
     font-size: 18px;
 
@@ -630,7 +636,7 @@ section.contato {
     }
 
     h4 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .topo-do-site .flex {
@@ -660,7 +666,7 @@ section.contato {
     }
 
     .topo-do-site h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     section .img-topo-site img {
@@ -668,7 +674,7 @@ section.contato {
     }
 
     .home_social-icon img {
-        width: 50px;
+        width: 30px;
     }
 
     /*sobre-topo*/
