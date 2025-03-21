@@ -9,14 +9,13 @@
 
 body {
     padding-top: 60px;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(36, 33, 33);
     height: 100vh;
 }
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
-
 }
 
 .flex {
@@ -39,7 +38,7 @@ i {
 }
 
 h4 {
-    color: #000000;
+    color: #ffffff;
     font-size: 38px;
     line-height: 60px;
 }
@@ -55,7 +54,7 @@ h2.titulo {
 }
 
 p {
-    color: #252525e0;
+    color: #e7e3e3e0;
     text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
@@ -67,7 +66,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(222, 222, 222);
+    background-color:  rgb(36, 33, 33);
     z-index: 1000;
 }
 
@@ -115,7 +114,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgb(63, 63, 63);
+    color: rgb(242, 241, 241);
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
@@ -156,7 +155,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 38px;
     line-height: 40px;
 }
@@ -213,7 +212,7 @@ section.sobre .flex {
 }
 
 .sobre h4 {
-    color: #000000;
+    color: #ffffff;
     font-size: 38px;
     line-height: 60px;
 }
@@ -243,13 +242,14 @@ section .img-sobre img {
 
 .sobre-rdp .sobre-box i {
     font-size: 40px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .sobre-rdp .sobre-box h3 {
     font-size: 22px;
     margin: 15px 0;
     line-height: 0px;
+    color: #ffffff;
 }
 
 /*Habilidades*/
@@ -276,6 +276,7 @@ section.topo-do-site .flex {
 }
 
 .text-logo h3 {
+    color: white;
     display: flex;
     flex-direction: flex;
     align-items: center;
@@ -386,7 +387,7 @@ section.projetos .flex{
 }
 
 .layer p {
-    color: #bbb6b6;
+    color: #e7e3e3e0;
     font-size: var(--p-small-font);
     line-height: 1.5;
     text-align: center;
@@ -425,6 +426,7 @@ section.contato {
 }
 
 .contato-icon h3 {
+    color: #ffffff;
     display: flex;
     flex-direction: flex;
     align-items: center;
@@ -444,7 +446,7 @@ section.contato {
 
 /* Rodape */
 .end {
-    color: #000000;
+    color: #e7e3e3e0;
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
@@ -682,6 +684,9 @@ section.contato {
     section.sobre {
         padding: 10px 4%;
     }
+    section.sobre h4{
+        font-size: 30px;
+    }
 
     section.sobre .flex {
         gap: 0px;
@@ -707,7 +712,7 @@ section.contato {
 
     .habilidades .hab-box h4 {
          padding: 0px 1%; 
-         font-size: 70px;
+         font-size: 30px;
     }
 
     .habilidades .hab-box h3 {
@@ -769,8 +774,12 @@ section.contato {
     section.projetos {
         padding: 10px 4%;
     }
+
+    section.projetos h4 {
+        font-size: 30px;
+    }
     .img-projetos {
-        width: 300px; 
+        width: 335px; 
         height: 300px;
         align-items: center;
     }
@@ -793,6 +802,7 @@ section.contato {
     }
 
     .contato-icon p {
+        font-size: 15px;
         display: flex;
         flex-direction: flex;
         align-items: center;
