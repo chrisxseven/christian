@@ -297,6 +297,7 @@ section.topo-do-site .flex {
     gap: 0.5rem;
     background-color: #4E9975;
     color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.477);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     font-size: var(--small-font-size);
@@ -319,6 +320,7 @@ section.topo-do-site .flex {
     gap: 0.5rem;
     background-color: #4E9975;
     color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.477);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     font-size: var(--small-font-size);
@@ -326,6 +328,12 @@ section.topo-do-site .flex {
     transition: all 0.3s;
     cursor: pointer;
     margin-right: 10px;
+    
+}
+
+.logos .skills:hover {
+    background-position: 100% 0%;
+    transform: scale(1.10);
 }
 
 /*Projetos*/
@@ -333,10 +341,10 @@ section.projetos {
     margin-left: 5px;
 }
 
-/*ATIVAR QUANDO TIVER MAIS PROJETOS PARA POR
+ATIVAR QUANDO TIVER MAIS PROJETOS PARA POR
 section.projetos .flex{
    justify-content: space-around
-}*/
+}
 
 .img-projetos {
     margin-top: 25px;
@@ -346,7 +354,9 @@ section.projetos .flex{
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.477);
     position: relative;
+    margin-right: 50px;
     margin-bottom: 150px;
     transition: .5s;
 }
@@ -354,7 +364,6 @@ section.projetos .flex{
 .img-projetos:hover {
     background-position: 100% 0%;
     transform: scale(1.10);
-
 }
 
 .layer {
@@ -649,6 +658,10 @@ section.contato {
         flex-direction: column-reverse;
     }
 
+    .projetos .flex {
+        flex-direction: column;
+    }
+
     .logos .flex {
         flex-wrap: wrap;
     }
@@ -767,6 +780,7 @@ section.contato {
     .img-projetos {
         padding: 90px;
         width: 85%;
+        margin-bottom: 15px;
     }
 
     /*Projetos*/
