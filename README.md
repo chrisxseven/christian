@@ -1,3 +1,4 @@
+
 # Portifolio
 portfolio com um design clean e interativo, com projetos e competências atualizadas.
 
@@ -8,3 +9,5 @@ portfolio com um design clean e interativo, com projetos e competências atualiz
 
 <h1>Mobile</h1>
 
+![cell2](https://github.com/user-attachments/assets/832b02fb-a108-45b6-9326-0a46d8515a88)
+![cell 1](https://github.com/user-attachments/assets/9ec943f5-afe1-42e0-8541-ba25d8670b71)
