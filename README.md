@@ -2,9 +2,7 @@
 portfolio com um design clean e interativo, com projetos e competências atualizadas.
 
 <h1>WEB</h1>
-<div align="center">
     ![portifolio1](https://github.com/user-attachments/assets/25b68fba-8b66-4865-945f-fd34b2fc8781)
-</div> 
 
 
 <div align="center">
