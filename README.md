@@ -11,11 +11,3 @@ portfolio com um design clean e interativo, com projetos e competências atualiz
 ![port3](https://github.com/user-attachments/assets/244a9e48-fe91-4263-a201-e6b29f93c703)
 
 
-<h1>Mobile</h1>
-<div align="center">
-  
-![2](https://github.com/user-attachments/assets/c5c72b62-e30a-4f9c-80ed-ad85329cfaf8)
-
-![1](https://github.com/user-attachments/assets/6c20c64b-ef6c-42d4-ad6b-613fda79e9f7)
-
-</div>
