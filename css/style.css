@@ -182,7 +182,6 @@ section .img-topo-site img {
     display: flex;
     gap: 1rem;
     line-height: 80px;
-
 }
 
 .home_social-icon img {
@@ -198,6 +197,25 @@ section .img-topo-site img {
     transform: scale(1.10);
     transition: .2s;
 }
+
+.btn-contato button{
+    padding: 8px 15px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600px;
+    background-color: #4E9975;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.477);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    background-position: 100% 0%;
+    transform: scale(1.05);
+}
+
 
 /*sobre-topo*/
 
@@ -302,7 +320,7 @@ section.topo-do-site .flex {
     border-radius: 2rem;
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-    transition: all 0.3s;
+    transition: .2s;
     cursor: pointer;
     margin-right: 10px;
 }
@@ -325,7 +343,7 @@ section.topo-do-site .flex {
     border-radius: 2rem;
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-    transition: all 0.3s;
+    transition: .2s;
     cursor: pointer;
     margin-right: 10px;
     
