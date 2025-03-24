@@ -14,7 +14,8 @@ portfolio com um design clean e interativo, com projetos e competências atualiz
 <h1>Mobile</h1>
 <div align="center">
   
-![cell 1](https://github.com/user-attachments/assets/9ec943f5-afe1-42e0-8541-ba25d8670b71) 
-![cell2](https://github.com/user-attachments/assets/832b02fb-a108-45b6-9326-0a46d8515a88)
+![2](https://github.com/user-attachments/assets/c5c72b62-e30a-4f9c-80ed-ad85329cfaf8)
+
+![1](https://github.com/user-attachments/assets/6c20c64b-ef6c-42d4-ad6b-613fda79e9f7)
 
 </div>
